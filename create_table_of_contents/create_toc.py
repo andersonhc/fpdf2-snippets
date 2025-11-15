@@ -1,9 +1,8 @@
-"""Demonstrates how to build a Table of Contents for an existing PDF.
+"""
+Demonstrates how to build a Table of Contents for an existing PDF using pypdf + fpdf2.
 
 The script inspects the outline/bookmarks of an existing PDF, generates a TOC
 page with FPDF, and finally merges the TOC at the beginning of the document.
-Every function is meant to be as explicit as possible so it can be used as a
-tutorial reference.
 """
 
 from pathlib import Path
